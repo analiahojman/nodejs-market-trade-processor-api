@@ -13,9 +13,7 @@ var tm1,tm2;
 mongoose.connect(db, function(err) {
 	    if(err) {
 	        console.log('Test database connection error', err);
-	    } else {
-	        console.log('Test database connection successful');
-	    }
+	    } 
 });
 
 
@@ -33,8 +31,7 @@ describe('Trade Messages API', function() {
 		  		originatingCountry:"test_FR"
 		});
 	  	tm1.save(function (err, tradeMessage, numberAffected) {
-	  			if (err) throw err;	
-	  			console.log("saved1");
+	  			if (err) return handleError(err);	
 		});
 
 		tm2 = new TradeMessage({
@@ -48,8 +45,7 @@ describe('Trade Messages API', function() {
 		  		originatingCountry:"test_IE"
 		});
 	  	tm2.save(function (err, tradeMessage, numberAffected) {
-	  			if (err) throw err;	
-	  			console.log("saved2");
+	  			if (err) return handleError(err);	
 		});
 
 		done();
@@ -58,7 +54,6 @@ describe('Trade Messages API', function() {
     afterEach(function(done){
     	TradeMessage.remove({}, function (err) {
 	  		if (err) return handleError(err);
-	  		console.log("removed");
 	  	});
 	  	done();
     });
