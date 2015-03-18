@@ -1,0 +1,21 @@
+{
+  "name": "tradeMessageServer",
+  "version": "0.0.0",
+  "description": "Currency Fair - Trade Message server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Analia Hojman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^3.0.0",
+    "faye": "^1.1.1",
+    "mocha": "^2.2.1",
+    "mongoose": "^3.8.24",
+    "should": "^5.2.0",
+    "superagent": "^1.1.0",
+    "supertest": "^0.15.0",
+    "underscore": "^1.8.2"
+  }
+}
