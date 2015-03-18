@@ -73,7 +73,7 @@ To run this server, you will need:
 Then:
 
 ```
-$ git clone https://github.com/analiahojman/nodejs-trade-message-processor-api.git
+$ git clone https://github.com/analiahojman/nodejs-market-trade-processor-api.git
 $ cd nodejs-trade-message-processor-api
 $ npm install
 $ node app.js
