@@ -60,7 +60,7 @@ Body request:
  Response: 200 OK / 503 err
 ```
 
-Be sure to clone the [nodejs-trade-message-processor-webApp] and run it also.
+Be sure to clone the [nodejs-market-trade-processor-webApp](https://github.com/analiahojman/nodejs-market-trade-processor-web-app) and run it also.
 
 ##Getting started:
 
