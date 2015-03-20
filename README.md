@@ -1,7 +1,8 @@
 ##Node.js Trade Message Processor - API/Publisher Server
 
-This repo contains the source code of the Trade Message Processor API/Publisher Server.
-Author: Analia Hojman
+This repo contains the source code of the Trade Message Processor API/Publisher Server. <br>
+Author: Analia Hojman <br>
+You can post messages to: https://market-trade-processor-api.herokuapp.com/tradeMessages and see the results in real time in https://market-trade-processor.herokuapp.com/
 
 ##Tech Stack:
 + Node.js
